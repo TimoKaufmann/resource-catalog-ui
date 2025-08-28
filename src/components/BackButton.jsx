@@ -1,6 +1,6 @@
 import React from "react";
 
-const BackButton = ({ label = "Zurück" }) => {
+const BackButton = ({ onBack,label = "Zurück" }) => {
     return (
         <button 
             className="text-accent-light hover:underline mb-6 flex items-center transition-colors"
