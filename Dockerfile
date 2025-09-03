@@ -2,7 +2,7 @@
 FROM node:22-trixie-slim AS build_stage
 WORKDIR /app
 COPY package*.json ./
-RUN npm ci --only=production
+RUN npm ci
 COPY . .
 RUN npm run build
 
@@ -16,6 +16,3 @@ CMD ["nginx", "-g", "daemon off;"]
 
 
 
-#git add Dockerfile
-#git commit -m "Added the dev version of Dockerfile"
-#git push

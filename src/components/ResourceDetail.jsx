@@ -3,7 +3,7 @@ import LoadingSpinner from "./LoadingSpinner.jsx";
 import BackButton from "./BackButton.jsx";
 import ErrorMessage from "./ErrorMessage.jsx";
 import FeedbackForm from "./FeedbackForm.jsx";
-import FeedbackItem from "./feedbackItem.jsx";
+import FeedbackItem from "./FeedbackItem.jsx";
 import StarRating from "./StarRating.jsx";
 import { formatDate } from "../utils/formatDate.js";
 
